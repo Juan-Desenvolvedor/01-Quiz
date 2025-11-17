@@ -1,0 +1,51 @@
+/* Estilos Gerais */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Fundo de Tela */
+body {
+    background-image: linear-gradient(135deg, rgb(35, 35, 80), rgb(50, 50, 205));
+    text-align: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+/* Estilo para TODOS os botões */
+button  {
+    background-color: rgb(30, 30, 90);
+    border: 1px solid rgb(100, 0, 255);
+    box-shadow: 0 0 10px rgb(80, 0, 210);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito suave na transição */
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(10, 10, 60);
+}
+
+/* Botão Recomeçar */
+.Botão_Recomeçar{
+    font-size: 1em;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Botão Sair */
+.Botão_Sair{
+    font-size: 1em;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

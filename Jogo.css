@@ -1,0 +1,77 @@
+/* Estilos Gerais */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex; /*centralizar verticalmente */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Fundo de Tela */
+body { 
+    background-image: linear-gradient(135deg, #222550, #3533cd);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Numeração da Pergunta */
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 50px; /* Espaçamento abaixo  */
+    
+}
+
+/* Pergunta */
+h2 {
+    font-size: 1.3em;
+    max-width: 500px; /* Largura máxima  */
+}
+
+/* Resposta correta */
+h3{ 
+    color: rgb(230, 200, 30);
+    max-width: 500px; /* Largura máxima  */
+    
+}
+
+/* Container dos botões de resposta */
+.Opções {
+    display: flex;
+    flex-direction: column; /* Botões um embaixo do outro */
+    width: 500px;
+    gap: 20px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+/* Estilo para TODOS os botões */
+button  {
+    min-height: 55px;
+    font-size: 1em;
+    background-color: rgb(30, 30, 90);
+    border: 1px solid rgb(100, 0, 255);
+    box-shadow: 0 0 10px rgb(80, 0, 210);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s all; /* Efeito suave na transição */
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(10, 10, 60);
+}
+
+/*Posição e tamanho do botão proximo  */
+.Botão_Proximo { 
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 30px;    /* Distância da parte de baixo */
+    right: 30px;     /* Distância da parte da direita */
+
+    width: 55px; /* Largura  */
+    height: 55px; /* Altura */
+    border-radius: 50%; /* Arredondamento */
+    font-size: 1.5em; /* Tamanho da Fonte  */
+    padding: 0;
+}
