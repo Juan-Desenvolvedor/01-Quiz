@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="Inicio.css">
+</head>
+<body>
+
+    <div class="Tela_Principal">
+        <h2>Tema</h2>
+        <h1 class="Tema">DESENVOLVIMENTO WEB</h1> <!--tema do jogo-->
+
+        <div class="Circulo_Logo"> <!--Area do logo-->
+            <img class="Logo_Svg" src="Web.svg" > <!--Logo-->
+        </div>
+
+        <button class="Botão_Jogar" onclick="Jogar()"> JOGAR </button> <!--Botao Jogar-->
+
+    </div>
+
+    <script> 
+        // Botão Jogar (Vai para a página Jogo.html)
+        function Jogar(){
+        window.location.href = "Jogo.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos</title>
+    <link rel="stylesheet" href="Pontos.css">
+</head>
+<body>
+
+    <div class="Tela_Pontos">
+        <h2 id="h2">Você acertou .... de 10!</h2> <!--Pontução total-->
+    </div>
+
+    <button class="Botão_Proximo" onclick="Proximo()">></button> <!--Botao proximo-->
+
+<script>
+    window.onload = function() {
+    // Pega a puntuacao salva no sessionStorage
+    const pontos = sessionStorage.getItem('pontuacaoFinal');
+
+    // Encontra o H2 pelo ID
+    const textoPontuacao = document.getElementById('h2');
+
+    // Mostrar a mensagem de pontuação
+    textoPontuacao.innerText = `Você acertou ${pontos} de 10!`;
+    }
+
+    // Botão Próximo (Vai para a página Fim.html)
+    function Proximo(){
+    window.location.href ="Fim.html"
+    }      
+</script>
+    
+</body>
+</html>
+    
