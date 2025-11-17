@@ -38,8 +38,8 @@ Você precisa de um servidor local que execute PHP:
 
 ## 📸 Fotos 
 
-![Inicio](https://github.com/user-attachments/assets/7340c129-fb56-49a6-85af-39e10821078b)
-![Jogo2](https://github.com/user-attachments/assets/961cdf77-d3ef-4965-b5e8-463b0a20a8c2)
-![Jogo](https://github.com/user-attachments/assets/bf7e0292-6363-42c7-afbf-a82daea5f637)
-![Pontos](https://github.com/user-attachments/assets/636c1c33-738d-43ee-9670-f249a4527679)
-![Fim](https://github.com/user-attachments/assets/70039091-9f0a-4a88-92b2-d0a6e4957827)
+![Inicio](https://github.com/user-attachments/assets/d1ddf204-60ca-4b20-9bb6-76d709836330)
+![Jogo2](https://github.com/user-attachments/assets/79a8cb54-abfb-40d5-b9ce-f6281f086f12)
+![Jogo](https://github.com/user-attachments/assets/1d07b5c3-7264-4996-81ea-080bb373aaf7)
+![Pontos](https://github.com/user-attachments/assets/2590ae35-46f0-4e0b-8cc6-0c73653bbed8)
+![Fim](https://github.com/user-attachments/assets/f9747feb-884f-4800-b10b-12480c75ea3d)
